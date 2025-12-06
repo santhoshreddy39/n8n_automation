@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background: #f5f7fa;
+}
+
+.center {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    padding: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+pre {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+}
+
+.error {
+    color: red;
+}
