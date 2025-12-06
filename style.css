@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    padding: 40px;
     background: #f5f7fa;
+    padding: 40px;
 }
 
 .center {
@@ -29,8 +29,10 @@ pre {
     padding: 20px;
     border-radius: 8px;
     white-space: pre-wrap;
+    margin-top: 20px;
 }
 
 .error {
     color: red;
+    margin-top: 5px;
 }
