@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+</head>
+<body>
+
+<div id="login-section" class="center">
+    <h2>Login to Access</h2>
+
+    <button id="google-login-btn">Sign in with Google</button>
+
+    <div id="google-status" class="hidden"></div>
+
+    <div id="password-section" class="hidden">
+        <h3>Enter Password</h3>
+        <input id="password-input" type="password" placeholder="Password">
+        <button onclick="verifyPassword()">Submit</button>
+        <p id="password-error" class="error"></p>
+    </div>
+</div>
+
+<div id="app-section" class="hidden">
+    <h2>Social Media Post Generator</h2>
+
+    <input id="topic" placeholder="Enter Topic or URL">
+    <button onclick="generate()">Generate</button>
+
+    <pre id="output"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
